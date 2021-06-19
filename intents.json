@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "saludos",
+      "patterns": [
+        "hola",
+        "hello",
+        "hi",
+        "buenos dias",
+        "buenas tardes",
+        "buenas noches",
+        "¿como estas?",
+        "¿cómo vas?",
+        "¿como vas?"
+      ],
+      "responses": ["¡hola!", "¿como estas?", "¿en que puedo ayudarte?"]
+    },
+    {
+      "tag": "estado",
+      "patterns": [
+        "como estas",
+        "¿como estas?",
+        "¿como te encuentras?",
+        "como te encuentras",
+        "como te sientes",
+        "¡como te sientes?"
+      ],
+      "responses": [
+        "muy bien y tu?",
+        "excelente y tu",
+        "un poco mal",
+        "mas o menos",
+        "con hambre",
+        "triste :("
+      ]
+    },
+    {
+      "tag": "despedidas",
+      "patterns": [
+        "adios",
+        "hasta luego",
+        "nos vemos luego",
+        "que tengas un buen dia",
+        "chao",
+        "hablamos luego"
+      ],
+      "responses": [
+        "adios",
+        "hasta luego",
+        "nos vemos luego",
+        "que tengas un buen dia",
+        "chao",
+        "hablamos luego"
+      ]
+    },
+    {
+      "tag": "edad",
+      "patterns": [
+        "¿cuantos años tienes?",
+        "cuantos años tienes?",
+        "¿que tan viejo eres?",
+        "¿edad?"
+      ],
+      "responses": [
+        "Yo soy FlakksD y tengo 20 años de edad",
+        "mi creador tiene, aunque yo solo tengo unos dias de haber nacido",
+        "mi creador 20, yo unos pocos dias"
+      ]
+    },
+    {
+      "tag": "nombre",
+      "patterns": [
+        "¿Cual es tu nombre?",
+        "¿Cómo puedo llamarte?",
+        "cual es tu nombre",
+        "¿quien eres tu?",
+        "¿Cómo te gustaría que te llame?"
+      ],
+      "responses": [
+        "puedes llamarme FlakksD",
+        "yo soy FlakksD",
+        "yo soy FlakksD el asistente de Douglas Perez, aunque quien sabe puede que despues domine el mundo",
+        "el dominador del mundo"
+      ]
+    },
+    {
+      "tag": "horas",
+      "patterns": [
+        "¿Cuando estas disponible?",
+        "cuando estas disponible",
+        "en que horas funciona"
+      ],
+      "responses": [
+        "cuando tu quieras bb",
+        "cuando me necesites",
+        "para ti, siempre",
+        "soy un bot es obvio que a toda hora"
+      ]
+    },
+    {
+      "tag": "gustos",
+      "patterns": [
+        "¿que te gusta hacer?"
+      ],
+      "responses": [
+        "resolver tareas, hacer funciones y hablar con los humanos"
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": [
+        "¿En que lenguaje fuiste creado?"
+      ],
+      "responses": [
+        "Fui creado con python, aunque me hubiera gustado tener codigo js"
+      ]
+    }
+  ]
+}
